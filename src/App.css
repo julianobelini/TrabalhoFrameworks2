@@ -55,7 +55,6 @@
   transition: transform 100ms ease-in-out;
   text-align: center;
   
-
 }
 
 .texto {
@@ -63,7 +62,6 @@
   text-align: center;
   max-width: 370px;
   margin-left: 15px;
-
 
 }
 
@@ -79,13 +77,13 @@
   grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
   gap: 30px;
   background-color: #fff;
-  justify-content: center;
-  
+  justify-content: center;  
 
 }
 
 .rodape {
 
+  margin-top: 25px;
   display: flex;
   flex-direction: row;
   background-color: #1C52A6;
@@ -94,7 +92,6 @@
   position: sticky;  
   width: 100%;
   height: 150px;
-
 
 }
 
@@ -114,8 +111,6 @@
   font-weight: bolder;
   font-size: 40px;
   color: #fff;
-  
-  
 
 }
 
@@ -129,7 +124,45 @@
 
 .imgrodape{
 
-  height: 100px;
+  height: 70px;
   margin-right: 10px;
 
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .nomesalunos{
+
+    color: #fff;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 10px;
+    text-align: left;
+  
+  }
+  
+  .trabalho{
+  
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+  
+  }
+  
+  .trabalho p{
+  
+    height: 10px;
+    text-align: center;
+    margin-top: 0px;
+  
+  }
+  
+  .imgrodape{
+  
+    height: 50px;
+    margin-right: 10px;
+  
+  }
 }
